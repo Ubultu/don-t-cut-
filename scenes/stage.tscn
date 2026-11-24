@@ -1,0 +1,9 @@
+[gd_scene format=3 uid="uid://bj08l7m6n3n65"]
+
+[ext_resource type="Texture2D" uid="uid://fvi63n31vpan" path="res://textures/stage_1_demo_done.png" id="1_8rem4"]
+
+[node name="Stage" type="Node2D" unique_id=1312096542]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1044347751]
+scale = Vector2(11.033999, 11.033999)
+texture = ExtResource("1_8rem4")
