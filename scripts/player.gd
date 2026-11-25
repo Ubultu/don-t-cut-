@@ -13,6 +13,14 @@ var dirt_traction = 3.0
 var steering_speed_fix = 300
 @onready var frontsensor = get_node("FrontSensor")
 @onready var backsensor = get_node("BackSensor")
+#var pixel_color = map_image.get_pixel(Vector2(-250, -250))
+
+#Map variables
+#var stage = $stage/Sprite2D.texture.get_image()
+#@onready var map_image = $"../Stage/Sprite2D".texture.get_image()
+
+
+
 
 #main driving functions
 func _physics_process(delta: float) -> void:
@@ -36,7 +44,7 @@ func _physics_process(delta: float) -> void:
 		
 		if Input.is_action_pressed("steer_right") :
 			rotation += steering_speed * steering_factor * delta
-		
+				
 		var direction = Vector2.UP.rotated(rotation)
 		var forward_velocity = direction * -speed
 		var sideways = Vector2(-direction.y, direction.x)
@@ -46,7 +54,10 @@ func _physics_process(delta: float) -> void:
 	else :
 		print("off map: ", frontpixel)
 	
-	
 	move_and_slide()
 	print(speed)
-	print(rotation)
+	
+#func _ready() -> void:
+#	var map_sprite = $"../Stage/Sprite2D"
+#	print(map_sprite)
+#	print(map_sprite.texture)

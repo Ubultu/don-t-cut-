@@ -2,10 +2,17 @@
 
 [ext_resource type="PackedScene" uid="uid://bj08l7m6n3n65" path="res://scenes/stage.tscn" id="1_0wfyh"]
 [ext_resource type="PackedScene" uid="uid://duceo4vccsv7h" path="res://scenes/player.tscn" id="2_sugp2"]
+[ext_resource type="Texture2D" uid="uid://cocm7nufp82q8" path="res://textures/pixil-layer-Layer 1 (2).png" id="3_sugp2"]
 
 [node name="Main" type="Node2D" unique_id=1321788936]
 
 [node name="Stage" parent="." unique_id=1312096542 instance=ExtResource("1_0wfyh")]
+visibility_layer = 4
 
 [node name="Player" parent="." unique_id=558424073 instance=ExtResource("2_sugp2")]
+visibility_layer = 2
 position = Vector2(1690, 2328)
+
+[node name="trees" type="Sprite2D" parent="." unique_id=1975910650]
+scale = Vector2(11.034, 11.034)
+texture = ExtResource("3_sugp2")

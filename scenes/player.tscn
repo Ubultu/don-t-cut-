@@ -21,7 +21,9 @@ scale = Vector2(18, 28)
 shape = SubResource("RectangleShape2D_wnv0n")
 
 [node name="FrontSensor" type="Marker2D" parent="." unique_id=1848552809]
+visibility_layer = 2
 position = Vector2(0, -77)
 
 [node name="BackSensor" type="Marker2D" parent="." unique_id=960285404]
+visibility_layer = 2
 position = Vector2(0, 77)
