@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c65eourouptpy"
-path="res://.godot/imported/Don't_CUT_v1.0.0.apple-touch-icon.png-3a8dd1aaab3641ada32bca10efa2e1be.ctex"
+uid="uid://bh8l86sg51yp6"
+path="res://.godot/imported/Don't_CUT_v1.0.0.icon.png-0a663a36ad24543fab92b87d639a2939.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://build/Don't_CUT_v1.0.0.apple-touch-icon.png"
-dest_files=["res://.godot/imported/Don't_CUT_v1.0.0.apple-touch-icon.png-3a8dd1aaab3641ada32bca10efa2e1be.ctex"]
+source_file="res://build/v1.0.0/Don't_CUT_v1.0.0.icon.png"
+dest_files=["res://.godot/imported/Don't_CUT_v1.0.0.icon.png-0a663a36ad24543fab92b87d639a2939.ctex"]
 
 [params]
 

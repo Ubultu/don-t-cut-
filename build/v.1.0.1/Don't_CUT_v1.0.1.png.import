@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://d4id6e58tj3pt"
-path="res://.godot/imported/Don't_CUT_v1.0.0.png-8d6208c3ddd771dcf50f95cee47767b9.ctex"
+uid="uid://bslxu53qemgqq"
+path="res://.godot/imported/Don't_CUT_v1.0.1.png-b4811acd4f3da4b69e5a5414bb0005a3.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://build/Don't_CUT_v1.0.0.png"
-dest_files=["res://.godot/imported/Don't_CUT_v1.0.0.png-8d6208c3ddd771dcf50f95cee47767b9.ctex"]
+source_file="res://build/v.1.0.1/Don't_CUT_v1.0.1.png"
+dest_files=["res://.godot/imported/Don't_CUT_v1.0.1.png-b4811acd4f3da4b69e5a5414bb0005a3.ctex"]
 
 [params]
 
