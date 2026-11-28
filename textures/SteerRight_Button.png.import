@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://dafqplwupb8k6"
-path="res://.godot/imported/Don't_CUT_v1.0.1.icon.png-65b5e08d490bcc427604d6232f92b519.ctex"
+uid="uid://cdvlmp7dxy517"
+path="res://.godot/imported/SteerRight_Button.png-2000362dcd930a18212eeb1c7a981705.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://build/v.1.0.1/Don't_CUT_v1.0.1.icon.png"
-dest_files=["res://.godot/imported/Don't_CUT_v1.0.1.icon.png-65b5e08d490bcc427604d6232f92b519.ctex"]
+source_file="res://textures/SteerRight_Button.png"
+dest_files=["res://.godot/imported/SteerRight_Button.png-2000362dcd930a18212eeb1c7a981705.ctex"]
 
 [params]
 
